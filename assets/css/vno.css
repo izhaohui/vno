@@ -700,6 +700,7 @@ input[type="tel"] {
 
 .read-more {
   margin-bottom: 1em; }
+.read-more:after{content:"";clear:both;}
 
 .read-more-item {
   display: inline;
