@@ -925,6 +925,9 @@ input[type="tel"]:-ms-input-placeholder {
         font-size: 1.5em;
         line-height: 1.5em;
     }
+    h2{
+        margin: 1em 0;
+    }
     .btn-mobile-menu {
         display: block;
     }
