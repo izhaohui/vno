@@ -606,7 +606,7 @@ hr {
     left: 0;
     width: 100%;
     height: 35px;
-    background: transparent;
+    background: rgba(0,0,0,.6);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
 }
@@ -920,6 +920,11 @@ input[type="tel"]:-ms-input-placeholder {
 }
 
 @media all and (max-width: 960px) {
+    h1{
+        margin:1.5em 0;
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
     .btn-mobile-menu {
         display: block;
     }
@@ -1037,18 +1042,23 @@ input[type="tel"]:-ms-input-placeholder {
     }
 
     .post-list__post-title {
-        font-size: 1.2em;
-        line-height: 1.2em;
+        font-size: 1em;
+        line-height: 1em;
         margin-top: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .excerpt {
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
         font-size: 0.7em;
     }
 
     .post-list__meta--date {
         display: block;
-        text-align: center;
     }
 
     .post-list__meta--tags {
