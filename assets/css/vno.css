@@ -925,9 +925,15 @@ input[type="tel"]:-ms-input-placeholder {
         font-size: 1.5em;
         line-height: 1.5em;
     }
-    h2{
+
+    .post-list li{
+      margin: 0
+    }
+
+    .post-list__divider{
         margin: 1em 0;
     }
+
     .btn-mobile-menu {
         display: block;
     }
@@ -1047,7 +1053,7 @@ input[type="tel"]:-ms-input-placeholder {
     .post-list__post-title {
         font-size: 1em;
         line-height: 1em;
-        margin-top: 10px;
+        margin: 1em 0;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
